@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+  padding:0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+html{
+    background-image: url("fall2.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img{
+  min-width: 100%;
+  min-height: 100%;
+}
+.arrows{
+  padding: 10%;
+  padding-top: 30%;
+  text-align: center;
+  position: absolute;
+  top:0;
+  color:#000080;
+  font-size: 40px;
+  background-color: transparent;
+}
+a{
+    background-color: transparent;
+    border: 2px solid #000080;
+    color:#000080;
+    z-index: 10;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    font-size: 30px;
+    text-decoration: none;
+    position: fixed;
+    top:2%;
+    font-weight: bolder;
+}
+
+.contact{
+  right:3%;
+
+}
+
+.group{
+  display: block;
+  margin-top: 100%;
+  position: relative;
+  background-color: transparent;
+}
+.pic1{
+  position: fixed;
+  z-index: 1;
+  top:0;
+}
+.pic2{
+  z-index: 2;
+  position: relative;
+}.pic3{
+  z-index: 3;
+  display:none;
+  position: relative;
+}
+.text-group{
+  padding: 10%;
+  padding-top: 50%;
+  background-color: transparent;
+}
+.text-block{
+  color:white;
+  padding:5%;
+  font-size: 20px;
+  position: relative;
+  background-color: black;
+  z-index: 3;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("park.jpg");
+  position: relative;
+  z-index: 4;
+  height:1920px;
+  width:100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{
+  /* The image used */
+  background-image: url("winter2.jpg");
+  position: relative;
+  z-index: 7;
+  height:1920px;
+    width:100%;
+
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax {
+  /* The image used */
+  background-image: url("fall2.jpeg");
+  position: relative;
+  z-index: 7;
+  height:1920px;
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bot{
+  position: fixed;
+  top:0;
+}
+.links{
+  background-color: transparent;
+  padding-top:80%;
+
+  height: 40px;
+  width:100%;
+  display: grid;
+  grid-template-columns: 20% 20%;
+  justify-content: center;
+  grid-gap: 10%;
+  margin: auto;
+}
+.projects{
+    text-align: center;
+    border: 2px solid #000080;
+    color:#000080;
+    z-index: 10;
+    font-size: 30px;
+}
+.learn{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #000080;
+    color:#000080;
+    z-index: 10;
+    font-size: 30px;
+}
+
+.learn:hover{
+  cursor: pointer;
+
+}
+.projects:hover{
+  cursor:pointer;
+}
